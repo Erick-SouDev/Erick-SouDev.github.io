@@ -355,7 +355,8 @@ html {
 }
 
 .home-screen {
-  background-image: url("../images/bg.jpg");
+  background-image: url("../images/photo.jpg");
+
 }
 
 .home-screen .scroll-to-fixed-fixed {
