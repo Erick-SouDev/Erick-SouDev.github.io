@@ -455,10 +455,13 @@ html {
     float: none;
     border-bottom: 1px solid #CCC;
     padding: 15px 10px;
+    text-align: center;
   }
 
   .home-screen .header ul li a {
     color: white;
+    width: 100%;
+
   }
   .home-screen .header ul li:hover {
     color: white;
