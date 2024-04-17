@@ -443,7 +443,7 @@ html {
 
 @media screen and (max-width: 767px) {
   .home-screen .header ul {
-    background-color: black transparent;
+    background-color: white;
     z-index: 999;
     width: 100%;
     position: absolute;
@@ -459,7 +459,7 @@ html {
   }
 
   .home-screen .header ul li a {
-    color: white;
+    color: black;
     width: 100%;
 
   }
@@ -704,60 +704,6 @@ html {
   .services {
     padding: 30px 10px;
   }
-}
-
-.services .services-row .seric-div .service-card {
-  background-color: #FFF;
-  padding: 30px;
-  margin-bottom: 30px;
-  box-shadow: 0px 0px 62px 0px rgba(0, 0, 0, 0.06);
-}
-
-.services .services-row .seric-div .service-card i {
-  font-size: 2.5rem;
-  margin-bottom: 30px;
-  width: 80px;
-  height: 80px;
-  line-height: 80px;
-  text-align: center;
-  font-size: 46px;
-  background-color: #fe9c2c;
-  color: #fff;
-  border-radius: 25px;
-  border-bottom-right-radius: 0;
-  -webkit-transition: all 0.3s ease-out 0s;
-  -moz-transition: all 0.3s ease-out 0s;
-  -ms-transition: all 0.3s ease-out 0s;
-  -o-transition: all 0.3s ease-out 0s;
-  transition: all 0.3s ease-out 0s;
-}
-
-.services .services-row .seric-div .service-card h4 {
-  font-weight: 600;
-  font-size: 1.4rem;
-}
-
-.services .services-row .seric-div .service-card p {
-  font-size: .95rem;
-  margin-top: 15px;
-}
-
-.services .services-row .seric-div .service-card:hover {
-  background-color: black;
-  color: white;
-}
-
-.services .services-row .seric-div .service-card:hover i {
-  background-color: black;
-  color: #fff;
-}
-
-.services .services-row .seric-div .service-card:hover h4 {
-  color: #fff;
-}
-
-.services .services-row .seric-div .service-card:hover p {
-  color: #fff;
 }
 
 
